@@ -1,9 +1,15 @@
 .navbar {
   padding: 2rem;
-  background-color: rgb(164, 50, 19);
+  background-color: rgb(160, 182, 136);
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    display: none;
+  }
 }
