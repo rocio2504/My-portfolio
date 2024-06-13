@@ -1,3 +1,14 @@
+/*section hero*/
+.hero {
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
 .navbar {
   padding: 2rem;
   background-color: rgb(160, 182, 136);
