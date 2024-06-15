@@ -5,13 +5,28 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*section hero*/
+.hero-principal {
+  padding: 3rem;
+}
 .hero {
   background-color: #f5f6f8;
   min-height: 450px;
   text-align: center;
 }
 
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
 .navbar {
   padding: 2rem;
   background-color: rgb(160, 182, 136);
@@ -23,8 +38,9 @@ section {
 }
 .rocio {
   border-radius: 50%; /* Crea un borde redondeado con un radio del 50% */
-  width: auto; /* Mantiene la relación de aspecto de la imagen */
-  height: auto; /* Mantiene la relación de aspecto de la imagen */
+  width: 300px; /* Mantiene la relación de aspecto de la imagen */
+  height: 300px;
+  margin: 20px; /* Mantiene la relación de aspecto de la imagen */
 }
 
 @media screen and (max-width: 768px) {
